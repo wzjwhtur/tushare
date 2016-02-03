@@ -16,4 +16,3 @@ class Test_Is_holiday(TestCase):
         self.assertFalse(is_holiday('2016-01-01'))  # not holiday
         self.assertTrue(is_holiday('2016-01-09'))  # Saturday
         self.assertTrue(is_holiday('2016-01-10'))  # Sunday
-

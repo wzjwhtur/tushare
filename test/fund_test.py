@@ -3,8 +3,8 @@
 import unittest
 import tushare.stock.fundamental as fd
 
-class Test(unittest.TestCase):
 
+class Test(unittest.TestCase):
     def set_data(self):
         self.code = '600848'
         self.start = '2015-01-03'
@@ -14,8 +14,9 @@ class Test(unittest.TestCase):
 
     def test_get_stock_basics(self):
         print(fd.get_stock_basics())
-        
-#     def test_get_report_data(self):
+
+
+# def test_get_report_data(self):
 #         self.set_data()
 #         print(fd.get_report_data(self.year, self.quarter))
 #     
